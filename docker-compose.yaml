@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+
+  mariadb:
+    image: mariadb:10.7
+    environment:
+      - MARIADB_ROOT_PASSWORD=root
+      - MARIADB_DATABASE=developer
+      - MARIADB_USER=developer
+      - MARIADB_PASSWORD=developer
+      - MARIADB_AUTO_UPGRADE=true
+    volumes:
+      - type: bind
+        source: ~/../../usr/epn-api-db
+        target: /var/lib/mysql
+    ports:
+      - "${FORWARD_DB_PORT:-3306}:3306"
+
+  adminer:
+    image: adminer:latest
+    environment:
+      - ADMINER_DEFAULT_SERVER=mariadb
+    ports:
+      - "8080:8080"
+
+volumes:
+  mysql:
