@@ -1,7 +1,10 @@
 package models
 
+import "gorm.io/gorm"
+
 type Region struct {
-	ID       uint   `json:"id" gorm:"unique"`
-	Name     string `json:"name"`
-	Endpoint string `json:"endpoint"`
+	gorm.Model
+	Name     string   `json:"name"`
+	Endpoint string   `json:"endpoint"`
+	Source   []Source `gorm:"-"`
 }
