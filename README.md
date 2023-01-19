@@ -1,4 +1,4 @@
-# Energy-Price-News-V2
+# [Energy-Price-News-V2](https://github.com/MizouziE/Energy-Price-News-V2)
 Taking all the good from the old project and rewriting with improvements in Go
 
 Please see [the original project](https://github.com/Energy-Price-News-API/energy-prices-api) that this will be base on. I'm very grateful to all those that contributed and am still very proud of how it turned out.
@@ -26,3 +26,6 @@ Obviously this and many things will change. In it's current state it's just me t
 Can't wait to have something to launch 😃
 
 Sam
+
+:bangbang: | Link to the v2 repo: [Click Here!](https://github.com/MizouziE/Energy-Price-News-V2)
+:---: | :---
