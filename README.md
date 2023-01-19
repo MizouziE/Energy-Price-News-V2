@@ -27,5 +27,4 @@ Can't wait to have something to launch 😃
 
 Sam
 
-:bangbang: | Link to the v2 repo: [Click Here!](https://github.com/MizouziE/Energy-Price-News-V2)
-:---: | :---
+Link to the v2 repo: [Click Here!](https://github.com/MizouziE/Energy-Price-News-V2)
