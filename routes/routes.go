@@ -19,4 +19,5 @@ func Setup(app *fiber.App) {
 	app.Get("/api/news/regions", controllers.Regions)
 	app.Get("/api/news/regions/:regionId", controllers.SingleRegion)
 	app.Get("/api/news/regions/:regionId/sources", controllers.SingleRegionSources)
+	app.Get("/api/news/keywords", controllers.Keywords)
 }
