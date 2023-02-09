@@ -4,5 +4,5 @@ import "gorm.io/gorm"
 
 type Keyword struct {
 	gorm.Model
-	Keyword string
+	Keyword string `json:"keyword"`
 }

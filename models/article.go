@@ -6,7 +6,7 @@ type Article struct {
 	gorm.Model
 	Title    string `json:"title"`
 	Url      string `json:"url" gorm:"unique"`
-	ImageUrl string `json:"imageUrl"`
-	SourceID uint   `json:"sourceId"`
-	Source   Source
+	ImageUrl string `json:"imageUrl" default:"unassigned"`
+	// SourceID uint   `json:"sourceId" default:"unassigned"`
+	// Source   Source
 }
